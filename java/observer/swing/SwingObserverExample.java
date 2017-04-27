@@ -18,9 +18,9 @@ public class SwingObserverExample {
     button.addActionListener(new DevilListener());
     frame.getContentPane().add(BorderLayout.CENTER, button);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.getContentPane().add(BorderLayout.CENTER, button);
-		frame.setSize(300,300);
-		frame.setVisible(true);
+    frame.getContentPane().add(BorderLayout.CENTER, button);
+    frame.setSize(300,300);
+    frame.setVisible(true);
   }
   
   class AngelListener implements ActionListener {
