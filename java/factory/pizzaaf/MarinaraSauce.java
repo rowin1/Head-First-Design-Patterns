@@ -1,6 +1,5 @@
 public class MarinaraSauce implements Sauce {
-	
-  public String toString() {
+	public String toString() {
 		return "Marinara Sauce";
 	}
 }
