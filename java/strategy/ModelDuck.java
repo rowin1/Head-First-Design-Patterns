@@ -1,7 +1,9 @@
 public class ModelDuck extends Duck {
   public ModelDuck(){
-    flyBehavior = new FlyNoWay();
-    quackBehavior = new Quack();
+    //We also can set manually the algorithms from the class itself: like below code
+  
+	//quackBehavior = new Quack();
+    //flyBehavior = new FlyWithWings();
   }
   
   public void display() {
